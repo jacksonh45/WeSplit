@@ -15,6 +15,7 @@
 		5E9E815C2B4C4AA00052BB39 /* WeSplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9E815B2B4C4AA00052BB39 /* WeSplitTests.swift */; };
 		5E9E81662B4C4AA00052BB39 /* WeSplitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9E81652B4C4AA00052BB39 /* WeSplitUITests.swift */; };
 		5E9E81682B4C4AA00052BB39 /* WeSplitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9E81672B4C4AA00052BB39 /* WeSplitUITestsLaunchTests.swift */; };
+		5E9E81752B4EEDA10052BB39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9E81742B4EEDA10052BB39 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5E9E81612B4C4AA00052BB39 /* WeSplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSplitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9E81652B4C4AA00052BB39 /* WeSplitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitUITests.swift; sourceTree = "<group>"; };
 		5E9E81672B4C4AA00052BB39 /* WeSplitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5E9E81742B4EEDA10052BB39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		5E9E813B2B4C4A9D0052BB39 = {
 			isa = PBXGroup;
 			children = (
+				5E9E81742B4EEDA10052BB39 /* ContentView.swift */,
 				5E9E81462B4C4A9D0052BB39 /* WeSplit */,
 				5E9E815A2B4C4AA00052BB39 /* WeSplitTests */,
 				5E9E81642B4C4AA00052BB39 /* WeSplitUITests */,
@@ -264,6 +267,7 @@
 			files = (
 				5E9E814A2B4C4A9D0052BB39 /* ContentView.swift in Sources */,
 				5E9E814C2B4C4A9D0052BB39 /* Item.swift in Sources */,
+				5E9E81752B4EEDA10052BB39 /* ContentView.swift in Sources */,
 				5E9E81482B4C4A9D0052BB39 /* WeSplitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
