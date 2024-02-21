@@ -93,6 +93,7 @@ struct ContentView: View {
                     TextField("Insert input value", value: $userInput, format: .number)
                         .keyboardType(.numberPad)
                         .focused($isFocused)
+                    
                 }header: {
                     Text("Insert input value")
                 }
